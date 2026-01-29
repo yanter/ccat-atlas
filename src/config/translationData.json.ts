@@ -57,16 +57,16 @@ export const dataTranslations = {
  */
 export const textTranslations = {
   zh: {
-    hero_text: "Everything you need for an amazing website.",
+    hero_text: "Welcome.",
     hero_description:
-      "A template for small business needs. Multiple pages and sections, blog, i18n, animations, CMS - all ready to go.",
+      "Established in 1969, the CCAT is a dynamic organisation vested in the local, educational, and ancestral interests of its members. Through partnerships with similar organisations and participation in major events, CCAT fosters social cohesion and cross-cultural understanding. The CCAT hosts a wide range of festivals, public events and workshops, that celebrate Chinese culture, language, heritage, and the arts. These initiatives are open to the broader community, encouraging inclusivity and mutual respect.  It also provides information sessions for schools.  While the CCAT receives council grants for specific community-benefit programs, it also relies on fundraising and generous support from corporate sponsors, donors, members, and the public to sustain its services and activities.",
     back_to_all_posts: "Back to all posts",
     updated: "Updated",
   },
   en: {
-    hero_text: "Everything you need for an amazing website.",
+    hero_text: "Welcome",
     hero_description:
-      "A template for small business needs. Multiple pages and sections, blog, i18n, animations, CMS - all ready to go.",
+      "Established in 1969, the CCAT is a dynamic organisation vested in the local, educational, and ancestral interests of its members. Through partnerships with similar organisations and participation in major events, CCAT fosters social cohesion and cross-cultural understanding. The CCAT hosts a wide range of festivals, public events and workshops, that celebrate Chinese culture, language, heritage, and the arts. These initiatives are open to the broader community, encouraging inclusivity and mutual respect.  It also provides information sessions for schools.  While the CCAT receives council grants for specific community-benefit programs, it also relies on fundraising and generous support from corporate sponsors, donors, members, and the public to sustain its services and activities.",
     back_to_all_posts: "Back to all posts",
     updated: "Updated",
   },

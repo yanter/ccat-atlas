@@ -2,25 +2,25 @@ import { type SiteDataProps } from "../types/configDataTypes";
 
 // Update this file with your site specific information
 const siteData: SiteDataProps = {
-  name: "Atlas",
+  name: "CCAT",
   // Your website's title and description (meta fields)
-  title: "Atlas - a small business theme and landing page crafted with Astro and Tailwind CSS",
+  title: "CCAT - The Chinese Community Association of Tasmania",
   description:
-    "Create an amazing website for your small business clients with our beautiful website theme designed using Astro and Tailwind CSS. Perfect for freelancers, developers, startups, and personal use.",
+    "澳 洲 塔 省 華 人 聯 誼 會",
 
   // used on contact page and footer
   contact: {
-    address1: "1234 Main Street",
-    address2: "New York, NY 10001",
-    phone: "(123) 456-7890",
-    email: "creator@cosmicthemes.com",
+    address1: "7 Burnett Place, North Hobart, Tasmania 7000",
+    address2: "",
+    phone: "",
+    email: "contact@ccat.au",
   },
 
   // Your information for blog post purposes
   author: {
-    name: "Cosmic Themes",
-    email: "creator@cosmicthemes.com",
-    twitter: "Cosmic_Themes",
+    name: "CCAT",
+    email: "ccontact@ccat.au",
+    twitter: "CCAT",
   },
 
   // default image for meta tags if the page doesn't have an image already

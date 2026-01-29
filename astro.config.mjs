@@ -12,7 +12,7 @@ import netlify from "@astrojs/netlify";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://atlas.cosmicthemes.com",
+  site: "https://ccat.au",
   adapter: netlify({
     imageCDN: false,
   }),
