@@ -4,6 +4,9 @@ import BaseLayout from "@layouts/BaseLayout.astro";
 
 // components
 import HeroSideImage from "@components/Hero/HeroSideImage.astro";
+
+import BlogSectionGridDetailed from "@components/blog/BlogSectionGridDetailed.astro";
+
 import HeroBgImage from "@components/Hero/HeroBgImage.astro";
 import HeroCentered from "@components/Hero/HeroCentered.astro";
 
@@ -39,6 +42,9 @@ const siteData = getTranslatedData("siteData", currLocale);
 
 <BaseLayout title={siteData.title} description={siteData.description}>
   <HeroSideImage />
+
+  <BlogSectionGridDetailed />
+  
   <!-- <HeroBgImage /> -->
   <!-- <HeroCentered /> -->
 
