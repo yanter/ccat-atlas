@@ -1,1 +1,0 @@
-let a;function n(){a&&(window.scrollY>50?(a.classList.add("navbar--scrolled"),a.classList.remove("navbar--initial")):(a.classList.add("navbar--initial"),a.classList.remove("navbar--scrolled")))}function e(){a=document.getElementById("nav__container"),window.addEventListener("scroll",n,{passive:!0})}e(),document.addEventListener("astro:after-swap",e);
