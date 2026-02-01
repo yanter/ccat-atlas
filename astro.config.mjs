@@ -10,11 +10,13 @@ import react from "@astrojs/react";
 import keystatic from "@keystatic/astro";
 import netlify from "@astrojs/netlify";
 
+import node from "@astrojs/node";
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://ccat.au",
-  adapter: netlify({
-    imageCDN: false,
+  adapter: node({
+    mode: "standalone",
   }),
   redirects: {
     "/admin": "/keystatic",
