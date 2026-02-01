@@ -14,7 +14,7 @@ import node from "@astrojs/node";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://ccat.au",
+  site: "https://ccat.asn.au",
   adapter: node({
     mode: "standalone",
   }),
